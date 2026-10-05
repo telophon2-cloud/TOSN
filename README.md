@@ -18,10 +18,10 @@ Developed under the **VladisApps** copyright.
 ## 🚀 How to Run (From Source)
 
 1. Clone this repository to your local machine.
-2. Make sure you have both `tosn.py` and `locale_storage.py` in the same directory.
+2. Make sure you have both `main.py` and `locale_storage.py` in the same directory.
 3. Run the main file using terminal:
    ```bash
-   python3 tosn.py
+   python3 main.py
    ```
 
 ## 📦 How to Build Standalone Binary
@@ -30,7 +30,7 @@ You can compile TOSN into a single executable file using `PyInstaller`. Run the 
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed tosn.py
+pyinstaller --onefile --windowed main.py
 ```
 After the build is complete, you will find your standalone app inside the `dist/` directory.
 
